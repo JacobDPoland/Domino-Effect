@@ -1,0 +1,51 @@
+td {
+    height: 13vh;
+    width: 10vw;
+}
+
+table, td {
+    border: 1px solid black;
+}
+
+td {
+    border-color: red;
+    border-width: 3px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    /* border: red; */
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#turn_box {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vh;
+    width: 30vw;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 16px;
+    height: 5vh;
+    padding-top: 2vh;
+}
+
+.invis{
+    display: none;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
