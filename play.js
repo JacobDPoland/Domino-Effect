@@ -128,9 +128,11 @@ function split (row, col, color){
     // check if there is a winner before you split (don't want endless recursive splitting)
     if (!gridContainsColor("red") && (turn_number > 2)){
         alert("blue wins")
+        return
     }
     else if (!gridContainsColor("blue") && (turn_number > 2)){
         alert("red wins")
+        return
     }
 
 
